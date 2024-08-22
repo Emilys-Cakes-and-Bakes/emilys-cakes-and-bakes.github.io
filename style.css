@@ -1,6 +1,6 @@
 .navbar {
   width: 100%;
-  background-color: #B2AC88;
+  background-color: #848B79;
   overflow: auto;
 }
 
@@ -22,7 +22,7 @@
 
 /* Style the current/active link */
 .navbar a.active {
-  background-color: #B2AC88;
+  background-color: #848B79;
 }
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
