@@ -10,5 +10,21 @@
   <a href="#">Gallery</a>
   <a href="#">Contact Us</a>
 </div>
+<script type="text/javascript">
+    var index=0;
+    function changeBanner(){ 
+      [].forEach.call(document.images,function (v,i) { document.images[i].hidden = i!==index});
+      index = (index+1) % document.images.length;
+    }
+    window.onload = function () {setInterval(changeBanner, 1000)};
+  </script>
+  <div id="wrapper">
+    <div>
+        <img src="https://drive.google.com/file/d/1sDCGnvlAkfIVldm83JspXMdK5ljOr7T6/view?usp=sharing" />
+      <img src="https://drive.google.com/file/d/12VlfZ6QN8SX_AiIe8PWzTUArGyfT4gNI/view?usp=sharing" />
+      <img src="" />
+    </div>
+  </div>
+
 </body>
 </html>
